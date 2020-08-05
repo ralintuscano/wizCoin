@@ -104,7 +104,7 @@ class Blockchain {
 
 let wizCoin = new Blockchain();
 
-//tampering Data
+//tampering transaction Data 
 // wizCoin.chain[1].data = { amount: 100 };
 console.log("Is Blockchain Valid? " + wizCoin.isChainValid());
 
