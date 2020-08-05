@@ -114,7 +114,4 @@ wizCoin.createTransaction("addd2", "add1", 50);
 console.log("\n Start Mining");
 wizCoin.minePendingTransactions("wiz-balance");
 
-console.log(
-  "\n Balance of Wiz is ",
-  wizCoin.getBalanceOfAddress("wiz-balance")
-);
+console.log("\n Balance of Wiz is ",wizCoin.getBalanceOfAddress("wiz-balance"));
